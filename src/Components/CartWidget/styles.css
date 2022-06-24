@@ -1,8 +1,9 @@
-CartWidget {
+.nav {
     display: flex ;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(197, 197, 216);
+    text-align: center;
     
 } 
 img{ 
