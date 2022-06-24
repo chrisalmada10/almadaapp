@@ -1,6 +1,7 @@
 import React from "react"; 
-import  logo from "../assets 1/logoImagen.png";
-import "./Navbar.css"
+import CartWidget from "../CartWidget";
+import "./styles.css"
+
 
 
 const menuItems=[
@@ -23,15 +24,14 @@ const Navbar = () => {
         <> 
         <div className="nav">
             <h1 className="nav-logo">GiocaStore</h1>
-            <div>
-
-                {menuItems.map((item) => (
+            <div className="nav-items">
+             {menuItems.map((item) => (
                 <a href="/" className="nav-item" key={item.id}>
                     {item.label}
             </a>
             ))}
             </div>
-            
+            <CartWidget/>
         </div>
         </>
         );
