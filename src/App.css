@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  background-color:brown;
   }
+  *{
+    background-color:brown;
+
+  }
+
   
 .App-logo {
   height: 40vmin;
